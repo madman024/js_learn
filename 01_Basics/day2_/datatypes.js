@@ -1,3 +1,8 @@
+let something ='nothing'
+console.log(something);
+console.log(typeof something);
+
+
 /*
 
 "use strict"; code is treated as newer version of js
