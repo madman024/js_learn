@@ -13,8 +13,8 @@ console.log(obarray);
 
 /*
 
-.includes(n)
-.indexOf(n)
+.includes(n)--returns boolean value
+.indexOf(n)--returns index of n ,-1 if element is not present
 
 myarray.join()--convert array to a string
 
