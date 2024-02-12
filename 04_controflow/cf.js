@@ -11,3 +11,32 @@ console.log("Who are you")
 
 // === strong check ,it also checks the type of the two operand 
 
+
+
+// &&-and 
+// ||-or
+
+
+/* switch(key){
+    case value:
+        break
+}
+
+*/
+
+/*
+
+falsy values 
+null undefined "" false Nan 0 
+
+truthy value 
+"anything" any integer [] {}
+
+*/
+
+// nullish coalescing operator ?? --if any vLue is null or undefinrd it tsked the other value
+
+
+// ternary operator 
+
+// condition ? statement 1:statement2
