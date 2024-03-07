@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorting Visualizer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <h1>Sorting Visualizer</h1>
+    <div class="array-container">
+      <div class="array"></div>
+    </div>
+    <div class="controls">
+      <button id="start-sorting">Start Sorting</button>
+      <label for="array-size">Array size:</label>
+      <input type="range" id="array-size" name="array-size" min="10" max="100" value="50">
+      <label for="sort-type">Sort type:</label>
+      <select id="sort-type">
+        <option value="Merge Sort">Merge Sort</option>
+        <option value="Quick Sort">Quick Sort</option>
+        <option value="Selection Sort">Selection Sort</option>
+      </select>
+      <label for="sort-speed">Sort speed:</label>
+      <input type="range" id="sort-speed" name="sort-speed" min="1" max="10" value="5">
+    </div>
+  </div>
+  <script src="sorting.js"></script>
+  <script src="mergeSort.js"></script>
+  <script src="quickSort.js"></script>
+  <script src="selectionSort.js"></script>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<title>Sorting Algorithms</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container mt-5">
+		<div id="array-container"></div>
+		<button id="quick-sort" class="btn btn-primary mt-3">Quick Sort</button>
+		<button id="merge-sort" class="btn btn-primary mt-3">Merge Sort</button>
+	</div>
+	<script src="sorting.js"></script>
+</body>
+</html> -->
