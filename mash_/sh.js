@@ -1,0 +1,7 @@
+/*
+
+i cant tell anything 
+i am not even shure of wh ti will do 
+i cant even beleive my self 
+i donr even 
+*/
